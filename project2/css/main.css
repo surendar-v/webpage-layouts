@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header {
+    margin-top: 20px;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f4f5f9;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+}
+.menu ul li {
+    font-size: 15px;
+    margin: 0px 15px 0px 0px;
+}
+.search button{
+    width: 130px;
+    height: 35px;
+    background-color: #4260ff;
+    color: white;
+    border-radius: 3px;
+    border-color: #4260ff;
+    cursor: pointer;
+}
+.welcome{
+    width: 100%;
+    height: 70%;;
+    margin-top: 50px;
+    display: flex;
+    position: absolute;
+    background-color: #f4f5f9;
+}
+.banner-pose{
+    position: relative;
+    left: 20px;
+}
+.banner-pose img{
+    width: 200px;
+    height: 300px;
+}
+.text{
+    position: relative;
+    top: 50px;
+    left: 300px;
+    font-size: 20px;
+}
+.banner-megaphone{
+    position: relative;
+    top: 200px;
+    left: 630px;
+}
+.banner-megaphone img{
+    width: 150px;
+    height: 250px;
+}
+.text >pre{
+    background: rgb(157, 61, 230);
+    background: linear-gradient(90deg, rgba(157, 61, 230, 1) 0%, rgba(255, 79, 153, 1) 35%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: bolder;
+}
+.text >span{
+    position: relative;
+    left: 180px;
+    color: #4260ff;
+    background-color: rgba(66, 96, 255, 0.2);
+    border-radius: 3px;;
+}
+.text >p{
+    line-height: 30px;
+
+}
+.text .c{
+    position: relative;
+    left: 150px;
+}
+.how{
+    margin-top: 300px;
+    position: absolute;
+    height: 500px;
+}
+.how .text1 >span{
+    color: #4260ff;
+    background-color: rgba(66, 96, 255, 0.2);
+    border-radius: 3px;
+    position: relative;
+    left: 700px;
+    font-size: larger;
+}
+.how .text1>p{
+    position: relative;
+    left: 520px;
+    font-size: 50px;
+}
+.container1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 500px;
+} 
+.circle{
+    width:60px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 80px;
+    margin-bottom: 30px;
+    border-radius: 50px;  
+}
+.num {
+    position: relative;
+    top: -71px;
+    left: 108px;
+    color: white;
+    width: 2px;
+}
+.services{
+    margin-top: 100px;
+    width: 900px;
+}
+.services .text2>span {
+    color: #4260ff;
+    background-color: rgba(66, 96, 255, 0.2);
+    border-radius: 3px;
+    position: relative;
+    left: 700px;
+    font-size: larger;
+}
+
+.services .text2>h1 {
+    position: relative;
+    left: 520px;
+    font-size: 50px;
+}
+
+.services .text2>pre {
+    position: relative;
+    left: 490px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.seo{
+    margin-top: 150px;
+    height: 500px;
+    
+}
+.seo .container{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    row-gap: 100px;
+    justify-items: center;
+}
+.box1,.box2,.box3,.box4,.box5,.box6{
+    width: 200px;
+    
+}
+.box1 img,.box2 img,.box3 img,.box4 img,.box5 img,.box6 img{
+    width: 70px;
+    position: relative;
+    top:-85px;
+    left: 13px;
+}
+.boxdiv1,.boxdiv2,.boxdiv3,.boxdiv4,.boxdiv5,.boxdiv6{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.box1 h6,.box2 h6,.box3 h6,.box4 h6,.box5 h6,.box6 h6{
+    position: relative;
+    top: -60px;
+}
+.box1 pre,.box2 pre,.box3 pre,.box4 pre,.box5 pre,.box6 pre{
+    position: relative;
+    top: -50px;
+    left: -170px;
+    font-weight: bold;
+}
+.boxdiv1{
+    background-color: #effaff;
+}
+.boxdiv2 {
+    background-color: #fff7e6;
+}
+.boxdiv3 {
+    background-color: #eef1ff;
+}
+.boxdiv4 {
+    background-color: #ffefef;
+}
+.boxdiv5 {
+    background-color: #e4fbf4;
+}
+.boxdiv6 {
+    background-color: #ffeff8;
+}
+.cardsection{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    height: 500px;
+}
+.card{
+    width: 800px;
+    height: 300px;
+    background-color: #131683;
+    border-radius: 30px;
+}
+.cardsection .card>span {
+    color: white;
+    background-color: rgba(66, 96, 255, 0.2);
+    border-radius: 3px;
+    position: relative;
+    top: 50px;
+    left: 340px;
+}
+.cardsection .card >h1{
+    color: white;
+    position: relative;
+    top: 60px;
+    left:260px;
+}
+.cards{
+    width: 800px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    top:-250px;
+    position: relative;
+    left:375px;
+    
+}
+.cards1{
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 10px 10px 10px 10px #eeeef1;
+}
+.cards2 {
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 10px 10px 10px 10px #eeeef1;
+    
+}
+.cards1 h6,.cards2 h6{
+    position: relative;
+    left: 60px;
+    top:-20px;
+}
+.cards1 p,.cards2 p{
+    position: relative;
+    left: 45px;
+    top: -15px;  
+}
+.cards1 pre,.cards2 pre{
+    position: relative;
+    left: 5px;
+    top: -10px;  
+}
+.blog{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -80px;
+}
+.blog .fromblog{
+    position: relative;
+    left: 100px;
+}
+.blog .fromblog >span{
+    color: #4260ff;
+    background-color: rgba(66, 96, 255, 0.2);
+    border-radius: 3px;
+}
+.blog .blogsearch >button{
+    width: 130px;
+        height: 35px;
+        background-color: #4260ff;
+        color: white;
+        border-radius: 3px;
+        border-color: #4260ff;
+        cursor: pointer;
+        position: relative;
+        right: 100px;
+}
+.containerblog{
+    height: 500px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.containerblog img{
+    width: 300px;
+    border-radius: 5px;
+}
+.containerblog .span1,.span2{
+    border: 2px solid #ebecef;
+    padding:2px;
+    margin-right: 10px;
+    position: relative;
+    top: 20px;
+}
+.containerblog p {
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.containerblog .people{
+    width:40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.containerblog h3,.date{
+    position: relative;
+    left:50px;
+    top: -40px;
+}
+.footer{
+    text-align: center;
+    height: 20px;
+}
+.footertop{
+    width: 40px;
+    height: 40px;
+    background-color: #4260ff;
+    border-radius: 50px;
+    position: relative;
+    top:-80px;
+    left:1450px;
+    cursor: pointer;
+} 
+.arrow{
+    width: 50px;
+    height: 50px;
+    color: white;
+    position: relative;
+    top: -23px;
+    left: 1445px;
+    z-index: 1;
+    cursor: pointer;
+}
