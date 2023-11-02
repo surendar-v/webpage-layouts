@@ -1,0 +1,67 @@
+#navbarNav {
+    justify-content: flex-end;
+}
+ul.navbar-nav {
+    padding-right: 20px;
+    font-weight: 500;
+}
+.freeship {
+    background-color: #4c1f59;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.freeship p{
+    margin: 0;
+}
+.bestseller h1 {
+    text-align: center;
+    padding: 50px;
+}
+.productcard{
+    text-align: center;
+}
+.bannercontent{
+    position: absolute;
+    top: 222px;
+    left: 32%;
+    color: white;
+    text-align: center;
+}
+.bannercontent h1 {
+    font-size: 70px;
+}
+.bannercontent p {
+    font-size: 20px;
+}
+.banner2 img{
+    width: 100%;
+    height: 700px;
+    margin-top: 50px;
+}
+
+.bannercontent2{
+    position: absolute;
+    top: 1550px;
+    left: 32%;
+    color: white;
+    text-align: center;
+}
+.bannercontent2 h1 {
+    font-size: 70px;
+}
+
+.bannercontent2 p {
+    font-size: 20px;
+}
+.aboutcontainer{
+    margin-top: 70px;
+}
+.footer{
+    margin-top: 50px;
+    background-color: #e6e6e6;
+}
+.footer h2{
+    margin-left: 15px;
+    margin-bottom: 25px;
+}
